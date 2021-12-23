@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="AutomationPractice">
+    <test name="FirefoxWorkFlowTest">
+        <parameter name="browserName" value="FIREFOX"></parameter>
+        <classes>
+            <class name="mk.sedc.tests.WorkFlowTest"/>
+
+        </classes>
+
+    </test>
+
+</suite>

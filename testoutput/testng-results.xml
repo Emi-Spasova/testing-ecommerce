@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-10-20T18:35:04 CEST" name="Default Suite" finished-at="2021-10-20T18:38:13 CEST" duration-ms="189127">
+    <groups>
+    </groups>
+    <test started-at="2021-10-20T18:35:04 CEST" name="page-object-model" finished-at="2021-10-20T18:38:13 CEST" duration-ms="189127">
+      <class name="mk.sedc.tests.BrokenLinksTest">
+        <test-method is-config="true" signature="set_up()[pri:0, instance:mk.sedc.tests.BrokenLinksTest@7b2bbc3]" started-at="2021-10-20T18:35:04 CEST" name="set_up" finished-at="2021-10-20T18:35:58 CEST" duration-ms="54439" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set_up -->
+        <test-method signature="testCase1()[pri:0, instance:mk.sedc.tests.BrokenLinksTest@7b2bbc3]" started-at="2021-10-20T18:35:58 CEST" name="testCase1" finished-at="2021-10-20T18:36:11 CEST" duration-ms="12348" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase1 -->
+        <test-method is-config="true" signature="tear_down()[pri:0, instance:mk.sedc.tests.BrokenLinksTest@7b2bbc3]" started-at="2021-10-20T18:36:11 CEST" name="tear_down" finished-at="2021-10-20T18:36:18 CEST" duration-ms="7096" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear_down -->
+        <test-method is-config="true" signature="set_up()[pri:0, instance:mk.sedc.tests.BrokenLinksTest@7b2bbc3]" started-at="2021-10-20T18:36:18 CEST" name="set_up" finished-at="2021-10-20T18:36:32 CEST" duration-ms="14195" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set_up -->
+        <test-method signature="testCase2()[pri:0, instance:mk.sedc.tests.BrokenLinksTest@7b2bbc3]" started-at="2021-10-20T18:36:32 CEST" name="testCase2" finished-at="2021-10-20T18:36:37 CEST" duration-ms="4781" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase2 -->
+        <test-method is-config="true" signature="tear_down()[pri:0, instance:mk.sedc.tests.BrokenLinksTest@7b2bbc3]" started-at="2021-10-20T18:36:37 CEST" name="tear_down" finished-at="2021-10-20T18:36:39 CEST" duration-ms="1661" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear_down -->
+        <test-method is-config="true" signature="set_up()[pri:0, instance:mk.sedc.tests.BrokenLinksTest@7b2bbc3]" started-at="2021-10-20T18:36:39 CEST" name="set_up" finished-at="2021-10-20T18:36:52 CEST" duration-ms="13794" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set_up -->
+        <test-method signature="testCase3()[pri:0, instance:mk.sedc.tests.BrokenLinksTest@7b2bbc3]" started-at="2021-10-20T18:36:52 CEST" name="testCase3" finished-at="2021-10-20T18:36:57 CEST" duration-ms="4829" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Vtoriot link expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Vtoriot link expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at mk.sedc.tests.BrokenLinksTest.testCase3(BrokenLinksTest.java:27)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase3 -->
+        <test-method is-config="true" signature="tear_down()[pri:0, instance:mk.sedc.tests.BrokenLinksTest@7b2bbc3]" started-at="2021-10-20T18:36:57 CEST" name="tear_down" finished-at="2021-10-20T18:36:58 CEST" duration-ms="1102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear_down -->
+        <test-method is-config="true" signature="set_up()[pri:0, instance:mk.sedc.tests.BrokenLinksTest@7b2bbc3]" started-at="2021-10-20T18:36:58 CEST" name="set_up" finished-at="2021-10-20T18:37:16 CEST" duration-ms="17904" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set_up -->
+        <test-method signature="testCase4()[pri:0, instance:mk.sedc.tests.BrokenLinksTest@7b2bbc3]" started-at="2021-10-20T18:37:16 CEST" name="testCase4" finished-at="2021-10-20T18:38:11 CEST" duration-ms="54546" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase4 -->
+        <test-method is-config="true" signature="tear_down()[pri:0, instance:mk.sedc.tests.BrokenLinksTest@7b2bbc3]" started-at="2021-10-20T18:38:11 CEST" name="tear_down" finished-at="2021-10-20T18:38:13 CEST" duration-ms="2182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear_down -->
+      </class> <!-- mk.sedc.tests.BrokenLinksTest -->
+    </test> <!-- page-object-model -->
+  </suite> <!-- Default Suite -->
+</testng-results>

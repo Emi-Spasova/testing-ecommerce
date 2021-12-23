@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="page-object-model(failed)">
+    <classes>
+      <class name="mk.sedc.tests.BrokenLinksTest">
+        <methods>
+          <include name="set_up"/>
+          <include name="tear_down"/>
+          <include name="testCase3"/>
+        </methods>
+      </class> <!-- mk.sedc.tests.BrokenLinksTest -->
+    </classes>
+  </test> <!-- page-object-model(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->

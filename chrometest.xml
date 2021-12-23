@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="AutomationPractice">
+    <test name="ChromeWorkFlowTest">
+        <parameter name="browserName" value="CHROME"></parameter>
+        <classes>
+            <class name="mk.sedc.tests.WorkFlowTest"/>
+
+        </classes>
+
+    </test>
+
+</suite>
